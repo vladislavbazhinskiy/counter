@@ -1,0 +1,106 @@
+body {
+	display:flex;
+	padding-top:80px ;
+	justify-content:center;
+	background-color:lightgray;
+	font-size:90%;
+}
+
+@media  (min-device-width: 320px) and (max-device-width: 700px) {
+    .container {
+		transform: rotate(-90deg);
+		margin-top:60px;
+        }
+    
+    table {
+        width:550px;
+        background:#e8f4ce;
+    	border:1px solid green;
+    	border-collapse:collapse;
+    }
+    
+    .header {
+	font-size:130%;
+	word-spacing:0.35em;
+	font-weight:bold;
+    }
+}
+
+
+
+
+input:not([id = dat]) {
+	text-align:center;
+	width:70%
+}
+@media  (min-device-width: 701px) {
+    table {
+    	width:700px;
+    	background:#e8f4ce;
+    	border:1px solid green;
+    	border-collapse:collapse;
+    }
+    .header {
+	font-size:130%;
+	word-spacing:1em;
+	font-weight:bold;
+	text-align:center;
+    }
+}
+
+
+ td {
+    width:16%;
+	border: 1px solid green;
+	padding:10px 0;
+	text-align:center;
+}
+
+#dat {
+	font-weight:bold;
+	 color:red;
+	 text-align:center;
+	 font-size:90%;
+}
+
+#result6 {
+	color:red;
+}
+
+#sumup {
+	text-align:right;
+	padding-right:15px;
+}
+
+#a1,#a2,#b1,#b2,#c1,#c2 {
+	background:transparent;
+	border:0;outline:0;
+}
+
+::placeholder {
+	color:red;
+}
+
+.button {
+	font-size:90%;
+	background-color:orange;
+	margin-left:10px;
+	font-weight:bold;
+	padding:0px 6px 0px 6px;
+}
+
+.button:hover {
+	transform:scale(1.05);
+	opacity:.8;
+}
+
+.answer {
+	text-align:center;
+	color:red;
+ }
+
+
+
+
+
+
